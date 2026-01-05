@@ -1,0 +1,158 @@
+@import url('fonts.googleapis.com');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+header {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    background-color: #1f2937;
+    padding: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.left {
+    /* margin-left: 140px;
+    margin-right: auto; */
+}
+
+.right {
+    /* margin-right: 140px;
+    margin-left: auto; */
+}
+
+.s1 {
+    display: flex;
+    background-color: #1f2937;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.s1-left, .s1-right {
+    width: 600px;
+    /* height: 275px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.s1-left {
+    font-size: 18px;
+    color: #e5e7eb;
+    /* margin-left: auto; */
+    gap: 10px;
+}
+
+.s1-right {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: auto; */
+}
+
+.s1-left h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 8px;
+    height: 40px;
+    width: 110px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: medium;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s1-right-box {
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 140px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    width: 140px;
+    height: 140px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    /* padding-bottom: 10px; */
+}
+
+.card-wrapper {
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    gap: 80px;
+    padding-top: 50px;
+    /* padding-bottom: 100px; */
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    /* padding-top: 50px; */
+}
+
+h2 {
+    
+}
+
+.s2 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
